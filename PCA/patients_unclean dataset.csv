@@ -1,0 +1,71 @@
+patient_id,name,age,gender,blood_type,height_cm,weight_kg,blood_pressure,exercise_frequency,smoking_status,city
+1,John Smith,28,male,A+,175,72,120/80,regular,Non-Smoker,New York
+2,Sarah Johnson,35,Female,O-,162,65,118/75,REGULAR,non-smoker,Los Angeles
+3,Mike Davis,-5,male,B+,180,88,130/85,moderate,Former Smoker,Chicago
+4,Emily Wilson,42,female,AB-,,58,125/82,Low,Non-smoker,Houston
+5,David Brown,31,Male,A+,168,75,122/78,Regular,NON-SMOKER,Phoenix
+6,Lisa Anderson,,,O+,155,52,115/70,high,Non-Smoker,Philadelphia
+7,James Taylor,29,male,A-,999,80,128/84,moderate,Current Smoker,San Antonio
+8,Maria Garcia,38,FEMALE,B-,159,61,119/76,REGULAR,former smoker,San Diego
+9,Robert Martinez,45,male,O+,177,-20,135/90,low,Non-Smoker,Dallas
+10,Jennifer Lee,33,female,A+,164,59,121/79,Regular,NON-SMOKER,San Jose
+11,William Harris,27,Male,AB+,182,92,127/83,High,current smoker,Austin
+12,Linda Clark,52,FEMALE,O-,158,68,132/88,regular,Non-Smoker,Jacksonville
+13,Richard Lewis,36,male,B+,175,81,123/80,MODERATE,Former Smoker,Fort Worth
+14,Patricia Walker,,female,A-,161,64,120/77,regular,non-smoker,Columbus
+15,Charles Hall,41,Male,O+,179,87,129/86,low,Current Smoker,Charlotte
+16,Barbara Allen,29,FEMALE,AB-,,55,117/73,Regular,NON-SMOKER,San Francisco
+17,Thomas Young,34,male,A+,176,78,124/81,high,non-smoker,Indianapolis
+18,Nancy King,48,female,B-,165,450,136/91,moderate,Former Smoker,Seattle
+19,Christopher Wright,31,Male,O+,172,74,121/78,REGULAR,Non-Smoker,Denver
+20,Karen Lopez,37,FEMALE,A-,160,62,118/75,regular,current smoker,Washington
+21,Daniel Hill,44,male,AB+,181,89,131/87,Low,NON-SMOKER,Boston
+22,Betty Scott,26,female,O-,-50,57,116/72,Regular,non-smoker,Nashville
+23,Matthew Green,39,Male,B+,166,83,126/82,moderate,Former smoker,Detroit
+24,Sandra Adams,33,FEMALE,,169,66,122/79,REGULAR,Non-Smoker,Portland
+25,Anthony Baker,50,male,A+,174,91,134/89,low,CURRENT SMOKER,Las Vegas
+26,Ashley Nelson,28,female,O+,157,54,119/76,regular,non-smoker,Memphis
+27,Mark Carter,35,Male,AB-,178,79,125/81,High,NON-SMOKER,Baltimore
+28,Donna Mitchell,42,FEMALE,B-,163,63,128/84,Regular,Former Smoker,Milwaukee
+29,Steven Perez,30,male,A-,0,76,123/80,moderate,Non-smoker,Albuquerque
+30,Carol Roberts,46,female,O+,170,70,130/86,REGULAR,current smoker,Tucson
+31,Paul Turner,32,Male,AB+,177,85,124/80,regular,NON-SMOKER,Fresno
+32,Michelle Phillips,,FEMALE,B+,159,60,120/77,Low,non-smoker,Sacramento
+33,Andrew Campbell,38,male,A+,175,82,127/83,Regular,Former Smoker,Kansas City
+34,Dorothy Parker,29,female,O-,162,56,118/74,MODERATE,Non-Smoker,Mesa
+35,Joshua Evans,43,Male,AB-,,90,133/88,regular,CURRENT SMOKER,Atlanta
+36,Kimberly Edwards,36,FEMALE,B-,168,64,121/78,high,non-smoker,Colorado Springs
+37,Kevin Collins,31,male,A+,180,77,125/81,Regular,NON-SMOKER,Raleigh
+38,Helen Stewart,49,female,O+,164,69,131/87,moderate,Former smoker,Miami
+39,Brian Sanchez,27,Male,AB+,176,73,122/79,REGULAR,Non-Smoker,Oakland
+40,Laura Morris,34,FEMALE,B+,161,58,119/75,low,current smoker,Minneapolis
+41,George Rogers,,male,A-,179,86,128/84,Regular,NON-SMOKER,Tulsa
+42,Rebecca Reed,40,female,O+,165,65,124/80,regular,non-smoker,Cleveland
+43,Edward Cook,33,Male,AB-,300,80,126/82,High,Former Smoker,Wichita
+44,Deborah Morgan,47,FEMALE,B-,163,67,129/85,MODERATE,Non-Smoker,Arlington
+45,Ronald Bell,28,male,A+,174,75,121/78,regular,CURRENT SMOKER,New Orleans
+46,Stephanie Murphy,,female,O-,,53,117/73,Regular,non-smoker,Bakersfield
+47,Jacob Bailey,37,Male,AB+,171,84,127/83,moderate,NON-SMOKER,Tampa
+48,Cynthia Rivera,44,FEMALE,B+,160,62,130/86,REGULAR,Former smoker,Honolulu
+49,Gary Cooper,30,male,A-,178,78,123/79,low,Non-Smoker,Anaheim
+50,Shirley Richardson,51,female,O+,166,71,132/88,Regular,current smoker,Santa Ana
+51,Timothy Ward,36,M,AB+,,88,125/81,regular,Non-Smoker,Orlando
+52,Sharon Torres,29,F,C+,167,59,119/76,moderate,non-smoker,St. Louis
+53,Kenneth Peterson,45,male,Unknown,173,82,130/85,REGULAR,Former Smoker,Pittsburgh
+54,Donna Gray,38,other,O-,,64,122/79,low,NON-SMOKER,Anchorage
+55,Frank Ramirez,42,Male,AB,169,77,127/83,High,current smoker,Cincinnati
+56,Ruth James,31,female,A++,158,55,118/74,regular,Non-smoker,Lexington
+57,Raymond Watson,,,B+,176,85,124/80,moderate,former smoker,Stockton
+58,Janice Brooks,40,FEMALE,O,162,61,121/78,REGULAR,Non-Smoker,Corpus Christi
+59,Gerald Kelly,35,m,A-,,79,126/82,low,CURRENT SMOKER,Henderson
+60,Teresa Sanders,48,Female,B+-,165,68,129/85,Regular,non-smoker,Lincoln
+61,Harold Price,33,male,N/A,180,83,123/79,moderate,NON-SMOKER,Buffalo
+62,Mildred Bennett,44,FEMALE,,171,66,128/84,regular,Former Smoker,Plano
+63,Eugene Wood,29,Male,O+pos,174,75,120/77,High,Non-smoker,Newark
+64,Evelyn Barnes,37,f,AB-,,58,117/73,MODERATE,current smoker,Irvine
+65,Carl Ross,41,male,A/B,169,81,131/87,regular,non-smoker,Chula Vista
+66,Marilyn Henderson,,,B-,160,63,119/75,Low,NON-SMOKER,Fort Wayne
+67,Roy Coleman,34,Male,O-negative,177,78,125/81,Regular,Former smoker,Jersey City
+68,Carolyn Jenkins,46,FEMALE,,164,67,130/86,moderate,Non-Smoker,Durham
+69,Russell Perry,30,male,A1,172,74,122/78,REGULAR,CURRENT SMOKER,Laredo
+70,Frances Powell,39,female,Type O+,,62,121/79,low,non-smoker,Lubbock

@@ -1,0 +1,360 @@
+rule,antecedents_str,consequents_str,support,confidence,lift
+Concession:Popcorn → Concession:Candy,Concession:Popcorn,Concession:Candy,0.4576271186440678,0.75,1.4274193548387095
+Concession:Candy → Concession:Popcorn,Concession:Candy,Concession:Popcorn,0.4576271186440678,0.8709677419354838,1.4274193548387095
+Concession:Candy → Concession:Soda,Concession:Candy,Concession:Soda,0.423728813559322,0.8064516129032258,1.189516129032258
+Concession:Soda → Concession:Candy,Concession:Soda,Concession:Candy,0.423728813559322,0.625,1.189516129032258
+Payment:Cash → Concession:Candy,Payment:Cash,Concession:Candy,0.2033898305084746,0.5714285714285715,1.087557603686636
+Concession:Candy → Payment:Cash,Concession:Candy,Payment:Cash,0.2033898305084746,0.3870967741935484,1.087557603686636
+Payment:Credit Card → Concession:Candy,Payment:Credit Card,Concession:Candy,0.2033898305084746,0.6000000000000001,1.1419354838709679
+Concession:Candy → Payment:Credit Card,Concession:Candy,Payment:Credit Card,0.2033898305084746,0.3870967741935484,1.1419354838709677
+Payment:Debit Card → Concession:Candy,Payment:Debit Card,Concession:Candy,0.1016949152542373,0.35294117647058826,0.6717267552182163
+Concession:Candy → Ticket:Adult,Concession:Candy,Ticket:Adult,0.23728813559322035,0.45161290322580644,0.8881720430107527
+Ticket:Adult → Concession:Candy,Ticket:Adult,Concession:Candy,0.23728813559322035,0.4666666666666667,0.8881720430107526
+Concession:Candy → Ticket:Child,Concession:Candy,Ticket:Child,0.1864406779661017,0.3548387096774193,1.9032258064516128
+Ticket:Child → Concession:Candy,Ticket:Child,Concession:Candy,0.1864406779661017,1.0,1.9032258064516128
+Concession:Hot Dog → Concession:Nachos,Concession:Hot Dog,Concession:Nachos,0.13559322033898305,0.6153846153846154,2.420512820512821
+Concession:Nachos → Concession:Hot Dog,Concession:Nachos,Concession:Hot Dog,0.13559322033898305,0.5333333333333333,2.4205128205128204
+Concession:Hot Dog → Concession:Popcorn,Concession:Hot Dog,Concession:Popcorn,0.11864406779661017,0.5384615384615384,0.8824786324786323
+Concession:Soda → Concession:Hot Dog,Concession:Soda,Concession:Hot Dog,0.2033898305084746,0.30000000000000004,1.3615384615384618
+Concession:Hot Dog → Concession:Soda,Concession:Hot Dog,Concession:Soda,0.2033898305084746,0.9230769230769231,1.3615384615384616
+Payment:Credit Card → Concession:Hot Dog,Payment:Credit Card,Concession:Hot Dog,0.1016949152542373,0.30000000000000004,1.3615384615384618
+Concession:Hot Dog → Payment:Credit Card,Concession:Hot Dog,Payment:Credit Card,0.1016949152542373,0.46153846153846156,1.3615384615384616
+Concession:Hot Dog → Ticket:Adult,Concession:Hot Dog,Ticket:Adult,0.13559322033898305,0.6153846153846154,1.2102564102564104
+Concession:Soda → Concession:Nachos,Concession:Soda,Concession:Nachos,0.22033898305084745,0.325,1.2783333333333335
+Concession:Nachos → Concession:Soda,Concession:Nachos,Concession:Soda,0.22033898305084745,0.8666666666666667,1.2783333333333335
+Payment:Credit Card → Concession:Nachos,Payment:Credit Card,Concession:Nachos,0.15254237288135594,0.45000000000000007,1.7700000000000002
+Concession:Nachos → Payment:Credit Card,Concession:Nachos,Payment:Credit Card,0.15254237288135594,0.6000000000000001,1.7700000000000002
+Ticket:Adult → Concession:Nachos,Ticket:Adult,Concession:Nachos,0.1864406779661017,0.3666666666666667,1.4422222222222223
+Concession:Nachos → Ticket:Adult,Concession:Nachos,Ticket:Adult,0.1864406779661017,0.7333333333333334,1.4422222222222223
+Concession:Popcorn → Concession:Soda,Concession:Popcorn,Concession:Soda,0.4745762711864407,0.7777777777777778,1.1472222222222224
+Concession:Soda → Concession:Popcorn,Concession:Soda,Concession:Popcorn,0.4745762711864407,0.7000000000000001,1.1472222222222224
+Payment:Cash → Concession:Popcorn,Payment:Cash,Concession:Popcorn,0.23728813559322035,0.6666666666666667,1.0925925925925926
+Concession:Popcorn → Payment:Cash,Concession:Popcorn,Payment:Cash,0.23728813559322035,0.3888888888888889,1.0925925925925926
+Payment:Credit Card → Concession:Popcorn,Payment:Credit Card,Concession:Popcorn,0.22033898305084745,0.65,1.0652777777777778
+Concession:Popcorn → Payment:Credit Card,Concession:Popcorn,Payment:Credit Card,0.22033898305084745,0.3611111111111111,1.0652777777777778
+Payment:Debit Card → Concession:Popcorn,Payment:Debit Card,Concession:Popcorn,0.13559322033898305,0.47058823529411764,0.7712418300653594
+Concession:Popcorn → Ticket:Adult,Concession:Popcorn,Ticket:Adult,0.288135593220339,0.4722222222222222,0.9287037037037037
+Ticket:Adult → Concession:Popcorn,Ticket:Adult,Concession:Popcorn,0.288135593220339,0.5666666666666668,0.9287037037037038
+Concession:Popcorn → Ticket:Child,Concession:Popcorn,Ticket:Child,0.1864406779661017,0.3055555555555555,1.6388888888888886
+Ticket:Child → Concession:Popcorn,Ticket:Child,Concession:Popcorn,0.1864406779661017,1.0,1.6388888888888888
+Ticket:Student → Concession:Popcorn,Ticket:Student,Concession:Popcorn,0.1016949152542373,0.6666666666666666,1.0925925925925926
+Concession:Pretzel → Concession:Water,Concession:Pretzel,Concession:Water,0.11864406779661017,0.875,4.302083333333333
+Concession:Water → Concession:Pretzel,Concession:Water,Concession:Pretzel,0.11864406779661017,0.5833333333333333,4.302083333333333
+Concession:Pretzel → Payment:Debit Card,Concession:Pretzel,Payment:Debit Card,0.1016949152542373,0.75,2.6029411764705883
+Payment:Debit Card → Concession:Pretzel,Payment:Debit Card,Concession:Pretzel,0.1016949152542373,0.35294117647058826,2.6029411764705883
+Payment:Cash → Concession:Soda,Payment:Cash,Concession:Soda,0.1864406779661017,0.5238095238095238,0.7726190476190476
+Payment:Credit Card → Concession:Soda,Payment:Credit Card,Concession:Soda,0.3220338983050847,0.95,1.40125
+Concession:Soda → Payment:Credit Card,Concession:Soda,Payment:Credit Card,0.3220338983050847,0.475,1.40125
+Payment:Debit Card → Concession:Soda,Payment:Debit Card,Concession:Soda,0.15254237288135594,0.5294117647058824,0.7808823529411765
+Ticket:Adult → Concession:Soda,Ticket:Adult,Concession:Soda,0.3728813559322034,0.7333333333333334,1.0816666666666668
+Concession:Soda → Ticket:Adult,Concession:Soda,Ticket:Adult,0.3728813559322034,0.55,1.0816666666666668
+Ticket:Child → Concession:Soda,Ticket:Child,Concession:Soda,0.13559322033898305,0.7272727272727273,1.0727272727272728
+Ticket:Student → Concession:Soda,Ticket:Student,Concession:Soda,0.1016949152542373,0.6666666666666666,0.9833333333333333
+Concession:Water → Payment:Debit Card,Concession:Water,Payment:Debit Card,0.15254237288135594,0.75,2.6029411764705883
+Payment:Debit Card → Concession:Water,Payment:Debit Card,Concession:Water,0.15254237288135594,0.5294117647058824,2.6029411764705883
+Concession:Water → Ticket:Adult,Concession:Water,Ticket:Adult,0.1016949152542373,0.5,0.9833333333333334
+Payment:Cash → Ticket:Child,Payment:Cash,Ticket:Child,0.13559322033898305,0.38095238095238093,2.043290043290043
+Ticket:Child → Payment:Cash,Ticket:Child,Payment:Cash,0.13559322033898305,0.7272727272727273,2.0432900432900434
+Ticket:Senior → Payment:Cash,Ticket:Senior,Payment:Cash,0.1016949152542373,0.6666666666666666,1.873015873015873
+Payment:Credit Card → Ticket:Adult,Payment:Credit Card,Ticket:Adult,0.2711864406779661,0.8,1.5733333333333335
+Ticket:Adult → Payment:Credit Card,Ticket:Adult,Payment:Credit Card,0.2711864406779661,0.5333333333333333,1.5733333333333335
+Payment:Debit Card → Ticket:Adult,Payment:Debit Card,Ticket:Adult,0.13559322033898305,0.47058823529411764,0.9254901960784314
+"Concession:Popcorn, Concession:Candy → Concession:Soda","Concession:Popcorn, Concession:Candy",Concession:Soda,0.3559322033898305,0.7777777777777778,1.1472222222222224
+"Concession:Popcorn, Concession:Soda → Concession:Candy","Concession:Popcorn, Concession:Soda",Concession:Candy,0.3559322033898305,0.75,1.4274193548387095
+"Concession:Candy, Concession:Soda → Concession:Popcorn","Concession:Candy, Concession:Soda",Concession:Popcorn,0.3559322033898305,0.8400000000000001,1.3766666666666667
+"Concession:Popcorn → Concession:Candy, Concession:Soda",Concession:Popcorn,"Concession:Candy, Concession:Soda",0.3559322033898305,0.5833333333333333,1.3766666666666665
+"Concession:Candy → Concession:Popcorn, Concession:Soda",Concession:Candy,"Concession:Popcorn, Concession:Soda",0.3559322033898305,0.6774193548387096,1.4274193548387095
+"Concession:Soda → Concession:Popcorn, Concession:Candy",Concession:Soda,"Concession:Popcorn, Concession:Candy",0.3559322033898305,0.525,1.1472222222222224
+"Payment:Cash, Concession:Popcorn → Concession:Candy","Payment:Cash, Concession:Popcorn",Concession:Candy,0.1694915254237288,0.7142857142857142,1.3594470046082947
+"Payment:Cash, Concession:Candy → Concession:Popcorn","Payment:Cash, Concession:Candy",Concession:Popcorn,0.1694915254237288,0.8333333333333333,1.3657407407407405
+"Concession:Popcorn, Concession:Candy → Payment:Cash","Concession:Popcorn, Concession:Candy",Payment:Cash,0.1694915254237288,0.37037037037037035,1.0405643738977073
+"Payment:Cash → Concession:Popcorn, Concession:Candy",Payment:Cash,"Concession:Popcorn, Concession:Candy",0.1694915254237288,0.47619047619047616,1.040564373897707
+"Concession:Candy → Payment:Cash, Concession:Popcorn",Concession:Candy,"Payment:Cash, Concession:Popcorn",0.1694915254237288,0.32258064516129026,1.3594470046082947
+"Payment:Credit Card, Concession:Popcorn → Concession:Candy","Payment:Credit Card, Concession:Popcorn",Concession:Candy,0.1694915254237288,0.7692307692307692,1.4640198511166251
+"Payment:Credit Card, Concession:Candy → Concession:Popcorn","Payment:Credit Card, Concession:Candy",Concession:Popcorn,0.1694915254237288,0.8333333333333333,1.3657407407407405
+"Concession:Popcorn, Concession:Candy → Payment:Credit Card","Concession:Popcorn, Concession:Candy",Payment:Credit Card,0.1694915254237288,0.37037037037037035,1.0925925925925926
+"Payment:Credit Card → Concession:Popcorn, Concession:Candy",Payment:Credit Card,"Concession:Popcorn, Concession:Candy",0.1694915254237288,0.5,1.0925925925925926
+"Concession:Candy → Payment:Credit Card, Concession:Popcorn",Concession:Candy,"Payment:Credit Card, Concession:Popcorn",0.1694915254237288,0.32258064516129026,1.4640198511166251
+"Concession:Popcorn, Payment:Debit Card → Concession:Candy","Concession:Popcorn, Payment:Debit Card",Concession:Candy,0.1016949152542373,0.75,1.4274193548387095
+"Payment:Debit Card, Concession:Candy → Concession:Popcorn","Payment:Debit Card, Concession:Candy",Concession:Popcorn,0.1016949152542373,1.0,1.6388888888888888
+"Payment:Debit Card → Concession:Popcorn, Concession:Candy",Payment:Debit Card,"Concession:Popcorn, Concession:Candy",0.1016949152542373,0.35294117647058826,0.7712418300653595
+"Concession:Popcorn, Concession:Candy → Ticket:Adult","Concession:Popcorn, Concession:Candy",Ticket:Adult,0.2033898305084746,0.4444444444444445,0.8740740740740742
+"Concession:Popcorn, Ticket:Adult → Concession:Candy","Concession:Popcorn, Ticket:Adult",Concession:Candy,0.2033898305084746,0.7058823529411765,1.3434535104364327
+"Concession:Candy, Ticket:Adult → Concession:Popcorn","Concession:Candy, Ticket:Adult",Concession:Popcorn,0.2033898305084746,0.8571428571428572,1.4047619047619049
+"Concession:Popcorn → Concession:Candy, Ticket:Adult",Concession:Popcorn,"Concession:Candy, Ticket:Adult",0.2033898305084746,0.3333333333333333,1.4047619047619047
+"Concession:Candy → Concession:Popcorn, Ticket:Adult",Concession:Candy,"Concession:Popcorn, Ticket:Adult",0.2033898305084746,0.3870967741935484,1.3434535104364325
+"Ticket:Adult → Concession:Popcorn, Concession:Candy",Ticket:Adult,"Concession:Popcorn, Concession:Candy",0.2033898305084746,0.4,0.8740740740740741
+"Concession:Popcorn, Concession:Candy → Ticket:Child","Concession:Popcorn, Concession:Candy",Ticket:Child,0.1864406779661017,0.4074074074074074,2.185185185185185
+"Concession:Popcorn, Ticket:Child → Concession:Candy","Concession:Popcorn, Ticket:Child",Concession:Candy,0.1864406779661017,1.0,1.9032258064516128
+"Concession:Candy, Ticket:Child → Concession:Popcorn","Concession:Candy, Ticket:Child",Concession:Popcorn,0.1864406779661017,1.0,1.6388888888888888
+"Concession:Popcorn → Concession:Candy, Ticket:Child",Concession:Popcorn,"Concession:Candy, Ticket:Child",0.1864406779661017,0.3055555555555555,1.6388888888888886
+"Concession:Candy → Concession:Popcorn, Ticket:Child",Concession:Candy,"Concession:Popcorn, Ticket:Child",0.1864406779661017,0.3548387096774193,1.9032258064516128
+"Ticket:Child → Concession:Popcorn, Concession:Candy",Ticket:Child,"Concession:Popcorn, Concession:Candy",0.1864406779661017,1.0,2.185185185185185
+"Payment:Cash, Concession:Candy → Concession:Soda","Payment:Cash, Concession:Candy",Concession:Soda,0.13559322033898305,0.6666666666666666,0.9833333333333333
+"Payment:Cash, Concession:Soda → Concession:Candy","Payment:Cash, Concession:Soda",Concession:Candy,0.13559322033898305,0.7272727272727273,1.3841642228739002
+"Concession:Candy, Concession:Soda → Payment:Cash","Concession:Candy, Concession:Soda",Payment:Cash,0.13559322033898305,0.32,0.8990476190476191
+"Payment:Cash → Concession:Candy, Concession:Soda",Payment:Cash,"Concession:Candy, Concession:Soda",0.13559322033898305,0.38095238095238093,0.899047619047619
+"Payment:Credit Card, Concession:Candy → Concession:Soda","Payment:Credit Card, Concession:Candy",Concession:Soda,0.1864406779661017,0.9166666666666666,1.3520833333333333
+"Payment:Credit Card, Concession:Soda → Concession:Candy","Payment:Credit Card, Concession:Soda",Concession:Candy,0.1864406779661017,0.5789473684210527,1.1018675721561968
+"Concession:Candy, Concession:Soda → Payment:Credit Card","Concession:Candy, Concession:Soda",Payment:Credit Card,0.1864406779661017,0.44,1.298
+"Payment:Credit Card → Concession:Candy, Concession:Soda",Payment:Credit Card,"Concession:Candy, Concession:Soda",0.1864406779661017,0.55,1.2980000000000003
+"Concession:Candy → Payment:Credit Card, Concession:Soda",Concession:Candy,"Payment:Credit Card, Concession:Soda",0.1864406779661017,0.3548387096774193,1.101867572156197
+"Concession:Candy, Concession:Soda → Ticket:Adult","Concession:Candy, Concession:Soda",Ticket:Adult,0.2033898305084746,0.48000000000000004,0.9440000000000001
+"Concession:Candy, Ticket:Adult → Concession:Soda","Concession:Candy, Ticket:Adult",Concession:Soda,0.2033898305084746,0.8571428571428572,1.2642857142857145
+"Concession:Soda, Ticket:Adult → Concession:Candy","Concession:Soda, Ticket:Adult",Concession:Candy,0.2033898305084746,0.5454545454545455,1.0381231671554252
+"Concession:Candy → Concession:Soda, Ticket:Adult",Concession:Candy,"Concession:Soda, Ticket:Adult",0.2033898305084746,0.3870967741935484,1.0381231671554252
+"Concession:Soda → Concession:Candy, Ticket:Adult",Concession:Soda,"Concession:Candy, Ticket:Adult",0.2033898305084746,0.30000000000000004,1.2642857142857145
+"Ticket:Adult → Concession:Candy, Concession:Soda",Ticket:Adult,"Concession:Candy, Concession:Soda",0.2033898305084746,0.4,0.9440000000000001
+"Concession:Candy, Concession:Soda → Ticket:Child","Concession:Candy, Concession:Soda",Ticket:Child,0.13559322033898305,0.32,1.7163636363636363
+"Concession:Candy, Ticket:Child → Concession:Soda","Concession:Candy, Ticket:Child",Concession:Soda,0.13559322033898305,0.7272727272727273,1.0727272727272728
+"Concession:Soda, Ticket:Child → Concession:Candy","Concession:Soda, Ticket:Child",Concession:Candy,0.13559322033898305,1.0,1.9032258064516128
+"Ticket:Child → Concession:Candy, Concession:Soda",Ticket:Child,"Concession:Candy, Concession:Soda",0.13559322033898305,0.7272727272727273,1.7163636363636365
+"Payment:Cash, Concession:Candy → Ticket:Child","Payment:Cash, Concession:Candy",Ticket:Child,0.13559322033898305,0.6666666666666666,3.5757575757575757
+"Payment:Cash, Ticket:Child → Concession:Candy","Payment:Cash, Ticket:Child",Concession:Candy,0.13559322033898305,1.0,1.9032258064516128
+"Concession:Candy, Ticket:Child → Payment:Cash","Concession:Candy, Ticket:Child",Payment:Cash,0.13559322033898305,0.7272727272727273,2.0432900432900434
+"Payment:Cash → Concession:Candy, Ticket:Child",Payment:Cash,"Concession:Candy, Ticket:Child",0.13559322033898305,0.38095238095238093,2.043290043290043
+"Ticket:Child → Payment:Cash, Concession:Candy",Ticket:Child,"Payment:Cash, Concession:Candy",0.13559322033898305,0.7272727272727273,3.5757575757575757
+"Payment:Credit Card, Concession:Candy → Ticket:Adult","Payment:Credit Card, Concession:Candy",Ticket:Adult,0.15254237288135594,0.75,1.475
+"Payment:Credit Card, Ticket:Adult → Concession:Candy","Payment:Credit Card, Ticket:Adult",Concession:Candy,0.15254237288135594,0.5625,1.0705645161290323
+"Concession:Candy, Ticket:Adult → Payment:Credit Card","Concession:Candy, Ticket:Adult",Payment:Credit Card,0.15254237288135594,0.6428571428571429,1.8964285714285716
+"Payment:Credit Card → Concession:Candy, Ticket:Adult",Payment:Credit Card,"Concession:Candy, Ticket:Adult",0.15254237288135594,0.45000000000000007,1.8964285714285716
+"Ticket:Adult → Payment:Credit Card, Concession:Candy",Ticket:Adult,"Payment:Credit Card, Concession:Candy",0.15254237288135594,0.30000000000000004,1.475
+"Concession:Soda, Concession:Hot Dog → Concession:Nachos","Concession:Soda, Concession:Hot Dog",Concession:Nachos,0.11864406779661017,0.5833333333333333,2.2944444444444443
+"Concession:Soda, Concession:Nachos → Concession:Hot Dog","Concession:Soda, Concession:Nachos",Concession:Hot Dog,0.11864406779661017,0.5384615384615384,2.4437869822485205
+"Concession:Hot Dog, Concession:Nachos → Concession:Soda","Concession:Hot Dog, Concession:Nachos",Concession:Soda,0.11864406779661017,0.875,1.2906250000000001
+"Concession:Hot Dog → Concession:Soda, Concession:Nachos",Concession:Hot Dog,"Concession:Soda, Concession:Nachos",0.11864406779661017,0.5384615384615384,2.4437869822485205
+"Concession:Nachos → Concession:Soda, Concession:Hot Dog",Concession:Nachos,"Concession:Soda, Concession:Hot Dog",0.11864406779661017,0.4666666666666667,2.2944444444444443
+"Concession:Popcorn, Concession:Hot Dog → Concession:Soda","Concession:Popcorn, Concession:Hot Dog",Concession:Soda,0.11864406779661017,1.0,1.475
+"Concession:Soda, Concession:Hot Dog → Concession:Popcorn","Concession:Soda, Concession:Hot Dog",Concession:Popcorn,0.11864406779661017,0.5833333333333333,0.9560185185185184
+"Concession:Hot Dog → Concession:Popcorn, Concession:Soda",Concession:Hot Dog,"Concession:Popcorn, Concession:Soda",0.11864406779661017,0.5384615384615384,1.1346153846153846
+"Payment:Credit Card, Concession:Soda → Concession:Hot Dog","Payment:Credit Card, Concession:Soda",Concession:Hot Dog,0.1016949152542373,0.31578947368421056,1.4331983805668018
+"Payment:Credit Card, Concession:Hot Dog → Concession:Soda","Payment:Credit Card, Concession:Hot Dog",Concession:Soda,0.1016949152542373,1.0,1.475
+"Concession:Soda, Concession:Hot Dog → Payment:Credit Card","Concession:Soda, Concession:Hot Dog",Payment:Credit Card,0.1016949152542373,0.5,1.475
+"Payment:Credit Card → Concession:Soda, Concession:Hot Dog",Payment:Credit Card,"Concession:Soda, Concession:Hot Dog",0.1016949152542373,0.30000000000000004,1.475
+"Concession:Hot Dog → Payment:Credit Card, Concession:Soda",Concession:Hot Dog,"Payment:Credit Card, Concession:Soda",0.1016949152542373,0.46153846153846156,1.4331983805668018
+"Ticket:Adult, Concession:Soda → Concession:Hot Dog","Ticket:Adult, Concession:Soda",Concession:Hot Dog,0.11864406779661017,0.3181818181818182,1.444055944055944
+"Ticket:Adult, Concession:Hot Dog → Concession:Soda","Ticket:Adult, Concession:Hot Dog",Concession:Soda,0.11864406779661017,0.875,1.2906250000000001
+"Concession:Soda, Concession:Hot Dog → Ticket:Adult","Concession:Soda, Concession:Hot Dog",Ticket:Adult,0.11864406779661017,0.5833333333333333,1.1472222222222221
+"Concession:Hot Dog → Ticket:Adult, Concession:Soda",Concession:Hot Dog,"Ticket:Adult, Concession:Soda",0.11864406779661017,0.5384615384615384,1.444055944055944
+"Payment:Credit Card, Concession:Soda → Concession:Nachos","Payment:Credit Card, Concession:Soda",Concession:Nachos,0.15254237288135594,0.4736842105263159,1.8631578947368426
+"Payment:Credit Card, Concession:Nachos → Concession:Soda","Payment:Credit Card, Concession:Nachos",Concession:Soda,0.15254237288135594,1.0,1.475
+"Concession:Soda, Concession:Nachos → Payment:Credit Card","Concession:Soda, Concession:Nachos",Payment:Credit Card,0.15254237288135594,0.6923076923076924,2.0423076923076926
+"Payment:Credit Card → Concession:Soda, Concession:Nachos",Payment:Credit Card,"Concession:Soda, Concession:Nachos",0.15254237288135594,0.45000000000000007,2.0423076923076926
+"Concession:Nachos → Payment:Credit Card, Concession:Soda",Concession:Nachos,"Payment:Credit Card, Concession:Soda",0.15254237288135594,0.6000000000000001,1.8631578947368426
+"Ticket:Adult, Concession:Soda → Concession:Nachos","Ticket:Adult, Concession:Soda",Concession:Nachos,0.1694915254237288,0.45454545454545453,1.7878787878787878
+"Ticket:Adult, Concession:Nachos → Concession:Soda","Ticket:Adult, Concession:Nachos",Concession:Soda,0.1694915254237288,0.9090909090909091,1.3409090909090908
+"Concession:Soda, Concession:Nachos → Ticket:Adult","Concession:Soda, Concession:Nachos",Ticket:Adult,0.1694915254237288,0.7692307692307692,1.5128205128205128
+"Ticket:Adult → Concession:Soda, Concession:Nachos",Ticket:Adult,"Concession:Soda, Concession:Nachos",0.1694915254237288,0.3333333333333333,1.5128205128205128
+"Concession:Nachos → Ticket:Adult, Concession:Soda",Concession:Nachos,"Ticket:Adult, Concession:Soda",0.1694915254237288,0.6666666666666666,1.7878787878787878
+"Payment:Credit Card, Ticket:Adult → Concession:Nachos","Payment:Credit Card, Ticket:Adult",Concession:Nachos,0.13559322033898305,0.5,1.9666666666666668
+"Payment:Credit Card, Concession:Nachos → Ticket:Adult","Payment:Credit Card, Concession:Nachos",Ticket:Adult,0.13559322033898305,0.8888888888888888,1.7481481481481482
+"Ticket:Adult, Concession:Nachos → Payment:Credit Card","Ticket:Adult, Concession:Nachos",Payment:Credit Card,0.13559322033898305,0.7272727272727273,2.1454545454545455
+"Payment:Credit Card → Ticket:Adult, Concession:Nachos",Payment:Credit Card,"Ticket:Adult, Concession:Nachos",0.13559322033898305,0.4,2.1454545454545455
+"Concession:Nachos → Payment:Credit Card, Ticket:Adult",Concession:Nachos,"Payment:Credit Card, Ticket:Adult",0.13559322033898305,0.5333333333333333,1.9666666666666666
+"Payment:Cash, Concession:Popcorn → Concession:Soda","Payment:Cash, Concession:Popcorn",Concession:Soda,0.13559322033898305,0.5714285714285714,0.8428571428571429
+"Payment:Cash, Concession:Soda → Concession:Popcorn","Payment:Cash, Concession:Soda",Concession:Popcorn,0.13559322033898305,0.7272727272727273,1.1919191919191918
+"Payment:Cash → Concession:Popcorn, Concession:Soda",Payment:Cash,"Concession:Popcorn, Concession:Soda",0.13559322033898305,0.38095238095238093,0.802721088435374
+"Payment:Credit Card, Concession:Popcorn → Concession:Soda","Payment:Credit Card, Concession:Popcorn",Concession:Soda,0.2033898305084746,0.9230769230769231,1.3615384615384616
+"Payment:Credit Card, Concession:Soda → Concession:Popcorn","Payment:Credit Card, Concession:Soda",Concession:Popcorn,0.2033898305084746,0.6315789473684211,1.0350877192982457
+"Concession:Popcorn, Concession:Soda → Payment:Credit Card","Concession:Popcorn, Concession:Soda",Payment:Credit Card,0.2033898305084746,0.4285714285714286,1.2642857142857145
+"Payment:Credit Card → Concession:Popcorn, Concession:Soda",Payment:Credit Card,"Concession:Popcorn, Concession:Soda",0.2033898305084746,0.6000000000000001,1.2642857142857145
+"Concession:Popcorn → Payment:Credit Card, Concession:Soda",Concession:Popcorn,"Payment:Credit Card, Concession:Soda",0.2033898305084746,0.3333333333333333,1.0350877192982457
+"Concession:Soda → Payment:Credit Card, Concession:Popcorn",Concession:Soda,"Payment:Credit Card, Concession:Popcorn",0.2033898305084746,0.30000000000000004,1.3615384615384618
+"Concession:Popcorn, Payment:Debit Card → Concession:Soda","Concession:Popcorn, Payment:Debit Card",Concession:Soda,0.11864406779661017,0.875,1.2906250000000001
+"Payment:Debit Card, Concession:Soda → Concession:Popcorn","Payment:Debit Card, Concession:Soda",Concession:Popcorn,0.11864406779661017,0.7777777777777778,1.2746913580246912
+"Payment:Debit Card → Concession:Popcorn, Concession:Soda",Payment:Debit Card,"Concession:Popcorn, Concession:Soda",0.11864406779661017,0.4117647058823529,0.8676470588235293
+"Concession:Popcorn, Ticket:Adult → Concession:Soda","Concession:Popcorn, Ticket:Adult",Concession:Soda,0.23728813559322035,0.8235294117647058,1.214705882352941
+"Concession:Popcorn, Concession:Soda → Ticket:Adult","Concession:Popcorn, Concession:Soda",Ticket:Adult,0.23728813559322035,0.5,0.9833333333333334
+"Ticket:Adult, Concession:Soda → Concession:Popcorn","Ticket:Adult, Concession:Soda",Concession:Popcorn,0.23728813559322035,0.6363636363636364,1.0429292929292928
+"Concession:Popcorn → Ticket:Adult, Concession:Soda",Concession:Popcorn,"Ticket:Adult, Concession:Soda",0.23728813559322035,0.3888888888888889,1.042929292929293
+"Ticket:Adult → Concession:Popcorn, Concession:Soda",Ticket:Adult,"Concession:Popcorn, Concession:Soda",0.23728813559322035,0.4666666666666667,0.9833333333333333
+"Concession:Soda → Concession:Popcorn, Ticket:Adult",Concession:Soda,"Concession:Popcorn, Ticket:Adult",0.23728813559322035,0.35000000000000003,1.2147058823529413
+"Concession:Popcorn, Ticket:Child → Concession:Soda","Concession:Popcorn, Ticket:Child",Concession:Soda,0.13559322033898305,0.7272727272727273,1.0727272727272728
+"Concession:Soda, Ticket:Child → Concession:Popcorn","Concession:Soda, Ticket:Child",Concession:Popcorn,0.13559322033898305,1.0,1.6388888888888888
+"Ticket:Child → Concession:Popcorn, Concession:Soda",Ticket:Child,"Concession:Popcorn, Concession:Soda",0.13559322033898305,0.7272727272727273,1.5324675324675325
+"Payment:Cash, Concession:Popcorn → Ticket:Child","Payment:Cash, Concession:Popcorn",Ticket:Child,0.13559322033898305,0.5714285714285714,3.0649350649350646
+"Payment:Cash, Ticket:Child → Concession:Popcorn","Payment:Cash, Ticket:Child",Concession:Popcorn,0.13559322033898305,1.0,1.6388888888888888
+"Concession:Popcorn, Ticket:Child → Payment:Cash","Concession:Popcorn, Ticket:Child",Payment:Cash,0.13559322033898305,0.7272727272727273,2.0432900432900434
+"Payment:Cash → Concession:Popcorn, Ticket:Child",Payment:Cash,"Concession:Popcorn, Ticket:Child",0.13559322033898305,0.38095238095238093,2.043290043290043
+"Ticket:Child → Payment:Cash, Concession:Popcorn",Ticket:Child,"Payment:Cash, Concession:Popcorn",0.13559322033898305,0.7272727272727273,3.064935064935065
+"Payment:Credit Card, Concession:Popcorn → Ticket:Adult","Payment:Credit Card, Concession:Popcorn",Ticket:Adult,0.1694915254237288,0.7692307692307692,1.5128205128205128
+"Payment:Credit Card, Ticket:Adult → Concession:Popcorn","Payment:Credit Card, Ticket:Adult",Concession:Popcorn,0.1694915254237288,0.625,1.0243055555555556
+"Concession:Popcorn, Ticket:Adult → Payment:Credit Card","Concession:Popcorn, Ticket:Adult",Payment:Credit Card,0.1694915254237288,0.588235294117647,1.7352941176470587
+"Payment:Credit Card → Concession:Popcorn, Ticket:Adult",Payment:Credit Card,"Concession:Popcorn, Ticket:Adult",0.1694915254237288,0.5,1.7352941176470589
+"Ticket:Adult → Payment:Credit Card, Concession:Popcorn",Ticket:Adult,"Payment:Credit Card, Concession:Popcorn",0.1694915254237288,0.3333333333333333,1.5128205128205128
+"Concession:Pretzel, Concession:Water → Payment:Debit Card","Concession:Pretzel, Concession:Water",Payment:Debit Card,0.1016949152542373,0.8571428571428572,2.9747899159663866
+"Concession:Pretzel, Payment:Debit Card → Concession:Water","Concession:Pretzel, Payment:Debit Card",Concession:Water,0.1016949152542373,1.0,4.916666666666666
+"Concession:Water, Payment:Debit Card → Concession:Pretzel","Concession:Water, Payment:Debit Card",Concession:Pretzel,0.1016949152542373,0.6666666666666666,4.916666666666666
+"Concession:Pretzel → Concession:Water, Payment:Debit Card",Concession:Pretzel,"Concession:Water, Payment:Debit Card",0.1016949152542373,0.75,4.916666666666666
+"Concession:Water → Concession:Pretzel, Payment:Debit Card",Concession:Water,"Concession:Pretzel, Payment:Debit Card",0.1016949152542373,0.5,4.916666666666666
+"Payment:Debit Card → Concession:Pretzel, Concession:Water",Payment:Debit Card,"Concession:Pretzel, Concession:Water",0.1016949152542373,0.35294117647058826,2.9747899159663866
+"Payment:Cash, Concession:Soda → Ticket:Child","Payment:Cash, Concession:Soda",Ticket:Child,0.1016949152542373,0.5454545454545455,2.9256198347107443
+"Payment:Cash, Ticket:Child → Concession:Soda","Payment:Cash, Ticket:Child",Concession:Soda,0.1016949152542373,0.75,1.10625
+"Concession:Soda, Ticket:Child → Payment:Cash","Concession:Soda, Ticket:Child",Payment:Cash,0.1016949152542373,0.75,2.107142857142857
+"Ticket:Child → Payment:Cash, Concession:Soda",Ticket:Child,"Payment:Cash, Concession:Soda",0.1016949152542373,0.5454545454545455,2.9256198347107443
+"Payment:Credit Card, Ticket:Adult → Concession:Soda","Payment:Credit Card, Ticket:Adult",Concession:Soda,0.2711864406779661,1.0,1.475
+"Payment:Credit Card, Concession:Soda → Ticket:Adult","Payment:Credit Card, Concession:Soda",Ticket:Adult,0.2711864406779661,0.8421052631578948,1.6561403508771932
+"Ticket:Adult, Concession:Soda → Payment:Credit Card","Ticket:Adult, Concession:Soda",Payment:Credit Card,0.2711864406779661,0.7272727272727273,2.1454545454545455
+"Payment:Credit Card → Ticket:Adult, Concession:Soda",Payment:Credit Card,"Ticket:Adult, Concession:Soda",0.2711864406779661,0.8,2.1454545454545455
+"Ticket:Adult → Payment:Credit Card, Concession:Soda",Ticket:Adult,"Payment:Credit Card, Concession:Soda",0.2711864406779661,0.5333333333333333,1.656140350877193
+"Concession:Soda → Payment:Credit Card, Ticket:Adult",Concession:Soda,"Payment:Credit Card, Ticket:Adult",0.2711864406779661,0.4,1.475
+"Payment:Cash, Concession:Popcorn, Concession:Candy → Concession:Soda","Payment:Cash, Concession:Popcorn, Concession:Candy",Concession:Soda,0.1016949152542373,0.6000000000000001,0.8850000000000001
+"Payment:Cash, Concession:Popcorn, Concession:Soda → Concession:Candy","Payment:Cash, Concession:Popcorn, Concession:Soda",Concession:Candy,0.1016949152542373,0.75,1.4274193548387095
+"Payment:Cash, Concession:Candy, Concession:Soda → Concession:Popcorn","Payment:Cash, Concession:Candy, Concession:Soda",Concession:Popcorn,0.1016949152542373,0.75,1.2291666666666665
+"Payment:Cash, Concession:Popcorn → Concession:Candy, Concession:Soda","Payment:Cash, Concession:Popcorn","Concession:Candy, Concession:Soda",0.1016949152542373,0.4285714285714286,1.0114285714285716
+"Payment:Cash, Concession:Candy → Concession:Popcorn, Concession:Soda","Payment:Cash, Concession:Candy","Concession:Popcorn, Concession:Soda",0.1016949152542373,0.5,1.0535714285714286
+"Payment:Cash, Concession:Soda → Concession:Popcorn, Concession:Candy","Payment:Cash, Concession:Soda","Concession:Popcorn, Concession:Candy",0.1016949152542373,0.5454545454545455,1.191919191919192
+"Payment:Credit Card, Concession:Popcorn, Concession:Candy → Concession:Soda","Payment:Credit Card, Concession:Popcorn, Concession:Candy",Concession:Soda,0.15254237288135594,0.9000000000000001,1.3275000000000003
+"Payment:Credit Card, Concession:Popcorn, Concession:Soda → Concession:Candy","Payment:Credit Card, Concession:Popcorn, Concession:Soda",Concession:Candy,0.15254237288135594,0.75,1.4274193548387095
+"Payment:Credit Card, Concession:Candy, Concession:Soda → Concession:Popcorn","Payment:Credit Card, Concession:Candy, Concession:Soda",Concession:Popcorn,0.15254237288135594,0.8181818181818182,1.3409090909090908
+"Concession:Popcorn, Concession:Candy, Concession:Soda → Payment:Credit Card","Concession:Popcorn, Concession:Candy, Concession:Soda",Payment:Credit Card,0.15254237288135594,0.4285714285714286,1.2642857142857145
+"Payment:Credit Card, Concession:Popcorn → Concession:Candy, Concession:Soda","Payment:Credit Card, Concession:Popcorn","Concession:Candy, Concession:Soda",0.15254237288135594,0.6923076923076924,1.6338461538461542
+"Payment:Credit Card, Concession:Candy → Concession:Popcorn, Concession:Soda","Payment:Credit Card, Concession:Candy","Concession:Popcorn, Concession:Soda",0.15254237288135594,0.75,1.5803571428571428
+"Payment:Credit Card, Concession:Soda → Concession:Popcorn, Concession:Candy","Payment:Credit Card, Concession:Soda","Concession:Popcorn, Concession:Candy",0.15254237288135594,0.4736842105263159,1.0350877192982457
+"Concession:Popcorn, Concession:Candy → Payment:Credit Card, Concession:Soda","Concession:Popcorn, Concession:Candy","Payment:Credit Card, Concession:Soda",0.15254237288135594,0.33333333333333337,1.0350877192982457
+"Concession:Popcorn, Concession:Soda → Payment:Credit Card, Concession:Candy","Concession:Popcorn, Concession:Soda","Payment:Credit Card, Concession:Candy",0.15254237288135594,0.32142857142857145,1.5803571428571428
+"Concession:Candy, Concession:Soda → Payment:Credit Card, Concession:Popcorn","Concession:Candy, Concession:Soda","Payment:Credit Card, Concession:Popcorn",0.15254237288135594,0.36000000000000004,1.6338461538461542
+"Payment:Credit Card → Concession:Popcorn, Concession:Candy, Concession:Soda",Payment:Credit Card,"Concession:Popcorn, Concession:Candy, Concession:Soda",0.15254237288135594,0.45000000000000007,1.2642857142857145
+"Concession:Popcorn, Concession:Candy, Concession:Soda → Ticket:Adult","Concession:Popcorn, Concession:Candy, Concession:Soda",Ticket:Adult,0.1694915254237288,0.47619047619047616,0.9365079365079365
+"Concession:Popcorn, Concession:Candy, Ticket:Adult → Concession:Soda","Concession:Popcorn, Concession:Candy, Ticket:Adult",Concession:Soda,0.1694915254237288,0.8333333333333333,1.2291666666666665
+"Concession:Popcorn, Concession:Soda, Ticket:Adult → Concession:Candy","Concession:Popcorn, Concession:Soda, Ticket:Adult",Concession:Candy,0.1694915254237288,0.7142857142857142,1.3594470046082947
+"Concession:Candy, Concession:Soda, Ticket:Adult → Concession:Popcorn","Concession:Candy, Concession:Soda, Ticket:Adult",Concession:Popcorn,0.1694915254237288,0.8333333333333333,1.3657407407407405
+"Concession:Popcorn, Concession:Candy → Concession:Soda, Ticket:Adult","Concession:Popcorn, Concession:Candy","Concession:Soda, Ticket:Adult",0.1694915254237288,0.37037037037037035,0.9932659932659932
+"Concession:Popcorn, Concession:Soda → Concession:Candy, Ticket:Adult","Concession:Popcorn, Concession:Soda","Concession:Candy, Ticket:Adult",0.1694915254237288,0.3571428571428571,1.5051020408163263
+"Concession:Popcorn, Ticket:Adult → Concession:Candy, Concession:Soda","Concession:Popcorn, Ticket:Adult","Concession:Candy, Concession:Soda",0.1694915254237288,0.588235294117647,1.388235294117647
+"Concession:Candy, Concession:Soda → Concession:Popcorn, Ticket:Adult","Concession:Candy, Concession:Soda","Concession:Popcorn, Ticket:Adult",0.1694915254237288,0.4,1.388235294117647
+"Concession:Candy, Ticket:Adult → Concession:Popcorn, Concession:Soda","Concession:Candy, Ticket:Adult","Concession:Popcorn, Concession:Soda",0.1694915254237288,0.7142857142857142,1.5051020408163263
+"Concession:Soda, Ticket:Adult → Concession:Popcorn, Concession:Candy","Concession:Soda, Ticket:Adult","Concession:Popcorn, Concession:Candy",0.1694915254237288,0.45454545454545453,0.9932659932659932
+"Concession:Candy → Concession:Popcorn, Concession:Soda, Ticket:Adult",Concession:Candy,"Concession:Popcorn, Concession:Soda, Ticket:Adult",0.1694915254237288,0.32258064516129026,1.3594470046082947
+"Ticket:Adult → Concession:Popcorn, Concession:Candy, Concession:Soda",Ticket:Adult,"Concession:Popcorn, Concession:Candy, Concession:Soda",0.1694915254237288,0.3333333333333333,0.9365079365079365
+"Concession:Popcorn, Concession:Candy, Concession:Soda → Ticket:Child","Concession:Popcorn, Concession:Candy, Concession:Soda",Ticket:Child,0.13559322033898305,0.38095238095238093,2.043290043290043
+"Concession:Popcorn, Concession:Candy, Ticket:Child → Concession:Soda","Concession:Popcorn, Concession:Candy, Ticket:Child",Concession:Soda,0.13559322033898305,0.7272727272727273,1.0727272727272728
+"Concession:Popcorn, Concession:Soda, Ticket:Child → Concession:Candy","Concession:Popcorn, Concession:Soda, Ticket:Child",Concession:Candy,0.13559322033898305,1.0,1.9032258064516128
+"Concession:Candy, Concession:Soda, Ticket:Child → Concession:Popcorn","Concession:Candy, Concession:Soda, Ticket:Child",Concession:Popcorn,0.13559322033898305,1.0,1.6388888888888888
+"Concession:Popcorn, Ticket:Child → Concession:Candy, Concession:Soda","Concession:Popcorn, Ticket:Child","Concession:Candy, Concession:Soda",0.13559322033898305,0.7272727272727273,1.7163636363636365
+"Concession:Candy, Concession:Soda → Concession:Popcorn, Ticket:Child","Concession:Candy, Concession:Soda","Concession:Popcorn, Ticket:Child",0.13559322033898305,0.32,1.7163636363636363
+"Concession:Candy, Ticket:Child → Concession:Popcorn, Concession:Soda","Concession:Candy, Ticket:Child","Concession:Popcorn, Concession:Soda",0.13559322033898305,0.7272727272727273,1.5324675324675325
+"Concession:Soda, Ticket:Child → Concession:Popcorn, Concession:Candy","Concession:Soda, Ticket:Child","Concession:Popcorn, Concession:Candy",0.13559322033898305,1.0,2.185185185185185
+"Ticket:Child → Concession:Popcorn, Concession:Candy, Concession:Soda",Ticket:Child,"Concession:Popcorn, Concession:Candy, Concession:Soda",0.13559322033898305,0.7272727272727273,2.0432900432900434
+"Payment:Cash, Concession:Popcorn, Concession:Candy → Ticket:Child","Payment:Cash, Concession:Popcorn, Concession:Candy",Ticket:Child,0.13559322033898305,0.8,4.290909090909091
+"Payment:Cash, Concession:Popcorn, Ticket:Child → Concession:Candy","Payment:Cash, Concession:Popcorn, Ticket:Child",Concession:Candy,0.13559322033898305,1.0,1.9032258064516128
+"Payment:Cash, Concession:Candy, Ticket:Child → Concession:Popcorn","Payment:Cash, Concession:Candy, Ticket:Child",Concession:Popcorn,0.13559322033898305,1.0,1.6388888888888888
+"Concession:Popcorn, Concession:Candy, Ticket:Child → Payment:Cash","Concession:Popcorn, Concession:Candy, Ticket:Child",Payment:Cash,0.13559322033898305,0.7272727272727273,2.0432900432900434
+"Payment:Cash, Concession:Popcorn → Concession:Candy, Ticket:Child","Payment:Cash, Concession:Popcorn","Concession:Candy, Ticket:Child",0.13559322033898305,0.5714285714285714,3.0649350649350646
+"Payment:Cash, Concession:Candy → Concession:Popcorn, Ticket:Child","Payment:Cash, Concession:Candy","Concession:Popcorn, Ticket:Child",0.13559322033898305,0.6666666666666666,3.5757575757575757
+"Payment:Cash, Ticket:Child → Concession:Popcorn, Concession:Candy","Payment:Cash, Ticket:Child","Concession:Popcorn, Concession:Candy",0.13559322033898305,1.0,2.185185185185185
+"Concession:Popcorn, Ticket:Child → Payment:Cash, Concession:Candy","Concession:Popcorn, Ticket:Child","Payment:Cash, Concession:Candy",0.13559322033898305,0.7272727272727273,3.5757575757575757
+"Concession:Candy, Ticket:Child → Payment:Cash, Concession:Popcorn","Concession:Candy, Ticket:Child","Payment:Cash, Concession:Popcorn",0.13559322033898305,0.7272727272727273,3.064935064935065
+"Payment:Cash → Concession:Popcorn, Concession:Candy, Ticket:Child",Payment:Cash,"Concession:Popcorn, Concession:Candy, Ticket:Child",0.13559322033898305,0.38095238095238093,2.043290043290043
+"Ticket:Child → Payment:Cash, Concession:Popcorn, Concession:Candy",Ticket:Child,"Payment:Cash, Concession:Popcorn, Concession:Candy",0.13559322033898305,0.7272727272727273,4.290909090909091
+"Payment:Credit Card, Concession:Popcorn, Concession:Candy → Ticket:Adult","Payment:Credit Card, Concession:Popcorn, Concession:Candy",Ticket:Adult,0.11864406779661017,0.7000000000000001,1.376666666666667
+"Payment:Credit Card, Concession:Popcorn, Ticket:Adult → Concession:Candy","Payment:Credit Card, Concession:Popcorn, Ticket:Adult",Concession:Candy,0.11864406779661017,0.7000000000000001,1.332258064516129
+"Payment:Credit Card, Concession:Candy, Ticket:Adult → Concession:Popcorn","Payment:Credit Card, Concession:Candy, Ticket:Adult",Concession:Popcorn,0.11864406779661017,0.7777777777777778,1.2746913580246912
+"Concession:Popcorn, Concession:Candy, Ticket:Adult → Payment:Credit Card","Concession:Popcorn, Concession:Candy, Ticket:Adult",Payment:Credit Card,0.11864406779661017,0.5833333333333333,1.7208333333333332
+"Payment:Credit Card, Concession:Popcorn → Concession:Candy, Ticket:Adult","Payment:Credit Card, Concession:Popcorn","Concession:Candy, Ticket:Adult",0.11864406779661017,0.5384615384615384,2.269230769230769
+"Payment:Credit Card, Concession:Candy → Concession:Popcorn, Ticket:Adult","Payment:Credit Card, Concession:Candy","Concession:Popcorn, Ticket:Adult",0.11864406779661017,0.5833333333333333,2.024509803921568
+"Payment:Credit Card, Ticket:Adult → Concession:Popcorn, Concession:Candy","Payment:Credit Card, Ticket:Adult","Concession:Popcorn, Concession:Candy",0.11864406779661017,0.4375,0.9560185185185185
+"Concession:Popcorn, Ticket:Adult → Payment:Credit Card, Concession:Candy","Concession:Popcorn, Ticket:Adult","Payment:Credit Card, Concession:Candy",0.11864406779661017,0.4117647058823529,2.0245098039215685
+"Concession:Candy, Ticket:Adult → Payment:Credit Card, Concession:Popcorn","Concession:Candy, Ticket:Adult","Payment:Credit Card, Concession:Popcorn",0.11864406779661017,0.5,2.269230769230769
+"Payment:Credit Card → Concession:Popcorn, Concession:Candy, Ticket:Adult",Payment:Credit Card,"Concession:Popcorn, Concession:Candy, Ticket:Adult",0.11864406779661017,0.35000000000000003,1.7208333333333334
+"Payment:Cash, Concession:Candy, Concession:Soda → Ticket:Child","Payment:Cash, Concession:Candy, Concession:Soda",Ticket:Child,0.1016949152542373,0.75,4.0227272727272725
+"Payment:Cash, Concession:Candy, Ticket:Child → Concession:Soda","Payment:Cash, Concession:Candy, Ticket:Child",Concession:Soda,0.1016949152542373,0.75,1.10625
+"Payment:Cash, Concession:Soda, Ticket:Child → Concession:Candy","Payment:Cash, Concession:Soda, Ticket:Child",Concession:Candy,0.1016949152542373,1.0,1.9032258064516128
+"Concession:Candy, Concession:Soda, Ticket:Child → Payment:Cash","Concession:Candy, Concession:Soda, Ticket:Child",Payment:Cash,0.1016949152542373,0.75,2.107142857142857
+"Payment:Cash, Concession:Candy → Concession:Soda, Ticket:Child","Payment:Cash, Concession:Candy","Concession:Soda, Ticket:Child",0.1016949152542373,0.5,3.6875
+"Payment:Cash, Concession:Soda → Concession:Candy, Ticket:Child","Payment:Cash, Concession:Soda","Concession:Candy, Ticket:Child",0.1016949152542373,0.5454545454545455,2.9256198347107443
+"Payment:Cash, Ticket:Child → Concession:Candy, Concession:Soda","Payment:Cash, Ticket:Child","Concession:Candy, Concession:Soda",0.1016949152542373,0.75,1.77
+"Concession:Candy, Ticket:Child → Payment:Cash, Concession:Soda","Concession:Candy, Ticket:Child","Payment:Cash, Concession:Soda",0.1016949152542373,0.5454545454545455,2.9256198347107443
+"Concession:Soda, Ticket:Child → Payment:Cash, Concession:Candy","Concession:Soda, Ticket:Child","Payment:Cash, Concession:Candy",0.1016949152542373,0.75,3.6874999999999996
+"Ticket:Child → Payment:Cash, Concession:Candy, Concession:Soda",Ticket:Child,"Payment:Cash, Concession:Candy, Concession:Soda",0.1016949152542373,0.5454545454545455,4.022727272727273
+"Payment:Credit Card, Concession:Candy, Concession:Soda → Ticket:Adult","Payment:Credit Card, Concession:Candy, Concession:Soda",Ticket:Adult,0.15254237288135594,0.8181818181818182,1.6090909090909093
+"Payment:Credit Card, Concession:Candy, Ticket:Adult → Concession:Soda","Payment:Credit Card, Concession:Candy, Ticket:Adult",Concession:Soda,0.15254237288135594,1.0,1.475
+"Payment:Credit Card, Concession:Soda, Ticket:Adult → Concession:Candy","Payment:Credit Card, Concession:Soda, Ticket:Adult",Concession:Candy,0.15254237288135594,0.5625,1.0705645161290323
+"Concession:Candy, Concession:Soda, Ticket:Adult → Payment:Credit Card","Concession:Candy, Concession:Soda, Ticket:Adult",Payment:Credit Card,0.15254237288135594,0.75,2.2125
+"Payment:Credit Card, Concession:Candy → Concession:Soda, Ticket:Adult","Payment:Credit Card, Concession:Candy","Concession:Soda, Ticket:Adult",0.15254237288135594,0.75,2.0113636363636362
+"Payment:Credit Card, Concession:Soda → Concession:Candy, Ticket:Adult","Payment:Credit Card, Concession:Soda","Concession:Candy, Ticket:Adult",0.15254237288135594,0.4736842105263159,1.9962406015037597
+"Payment:Credit Card, Ticket:Adult → Concession:Candy, Concession:Soda","Payment:Credit Card, Ticket:Adult","Concession:Candy, Concession:Soda",0.15254237288135594,0.5625,1.3275000000000001
+"Concession:Candy, Concession:Soda → Payment:Credit Card, Ticket:Adult","Concession:Candy, Concession:Soda","Payment:Credit Card, Ticket:Adult",0.15254237288135594,0.36000000000000004,1.3275000000000001
+"Concession:Candy, Ticket:Adult → Payment:Credit Card, Concession:Soda","Concession:Candy, Ticket:Adult","Payment:Credit Card, Concession:Soda",0.15254237288135594,0.6428571428571429,1.9962406015037597
+"Concession:Soda, Ticket:Adult → Payment:Credit Card, Concession:Candy","Concession:Soda, Ticket:Adult","Payment:Credit Card, Concession:Candy",0.15254237288135594,0.4090909090909091,2.0113636363636362
+"Payment:Credit Card → Concession:Candy, Concession:Soda, Ticket:Adult",Payment:Credit Card,"Concession:Candy, Concession:Soda, Ticket:Adult",0.15254237288135594,0.45000000000000007,2.2125000000000004
+"Ticket:Adult → Payment:Credit Card, Concession:Candy, Concession:Soda",Ticket:Adult,"Payment:Credit Card, Concession:Candy, Concession:Soda",0.15254237288135594,0.30000000000000004,1.6090909090909093
+"Payment:Credit Card, Ticket:Adult, Concession:Soda → Concession:Nachos","Payment:Credit Card, Ticket:Adult, Concession:Soda",Concession:Nachos,0.13559322033898305,0.5,1.9666666666666668
+"Payment:Credit Card, Ticket:Adult, Concession:Nachos → Concession:Soda","Payment:Credit Card, Ticket:Adult, Concession:Nachos",Concession:Soda,0.13559322033898305,1.0,1.475
+"Payment:Credit Card, Concession:Soda, Concession:Nachos → Ticket:Adult","Payment:Credit Card, Concession:Soda, Concession:Nachos",Ticket:Adult,0.13559322033898305,0.8888888888888888,1.7481481481481482
+"Ticket:Adult, Concession:Soda, Concession:Nachos → Payment:Credit Card","Ticket:Adult, Concession:Soda, Concession:Nachos",Payment:Credit Card,0.13559322033898305,0.8,2.3600000000000003
+"Payment:Credit Card, Ticket:Adult → Concession:Soda, Concession:Nachos","Payment:Credit Card, Ticket:Adult","Concession:Soda, Concession:Nachos",0.13559322033898305,0.5,2.269230769230769
+"Payment:Credit Card, Concession:Soda → Ticket:Adult, Concession:Nachos","Payment:Credit Card, Concession:Soda","Ticket:Adult, Concession:Nachos",0.13559322033898305,0.4210526315789474,2.258373205741627
+"Payment:Credit Card, Concession:Nachos → Ticket:Adult, Concession:Soda","Payment:Credit Card, Concession:Nachos","Ticket:Adult, Concession:Soda",0.13559322033898305,0.8888888888888888,2.3838383838383836
+"Ticket:Adult, Concession:Soda → Payment:Credit Card, Concession:Nachos","Ticket:Adult, Concession:Soda","Payment:Credit Card, Concession:Nachos",0.13559322033898305,0.36363636363636365,2.3838383838383836
+"Ticket:Adult, Concession:Nachos → Payment:Credit Card, Concession:Soda","Ticket:Adult, Concession:Nachos","Payment:Credit Card, Concession:Soda",0.13559322033898305,0.7272727272727273,2.258373205741627
+"Concession:Soda, Concession:Nachos → Payment:Credit Card, Ticket:Adult","Concession:Soda, Concession:Nachos","Payment:Credit Card, Ticket:Adult",0.13559322033898305,0.6153846153846154,2.269230769230769
+"Payment:Credit Card → Ticket:Adult, Concession:Soda, Concession:Nachos",Payment:Credit Card,"Ticket:Adult, Concession:Soda, Concession:Nachos",0.13559322033898305,0.4,2.3600000000000003
+"Concession:Nachos → Payment:Credit Card, Ticket:Adult, Concession:Soda",Concession:Nachos,"Payment:Credit Card, Ticket:Adult, Concession:Soda",0.13559322033898305,0.5333333333333333,1.9666666666666666
+"Payment:Cash, Concession:Popcorn, Concession:Soda → Ticket:Child","Payment:Cash, Concession:Popcorn, Concession:Soda",Ticket:Child,0.1016949152542373,0.75,4.0227272727272725
+"Payment:Cash, Concession:Popcorn, Ticket:Child → Concession:Soda","Payment:Cash, Concession:Popcorn, Ticket:Child",Concession:Soda,0.1016949152542373,0.75,1.10625
+"Payment:Cash, Concession:Soda, Ticket:Child → Concession:Popcorn","Payment:Cash, Concession:Soda, Ticket:Child",Concession:Popcorn,0.1016949152542373,1.0,1.6388888888888888
+"Concession:Popcorn, Concession:Soda, Ticket:Child → Payment:Cash","Concession:Popcorn, Concession:Soda, Ticket:Child",Payment:Cash,0.1016949152542373,0.75,2.107142857142857
+"Payment:Cash, Concession:Popcorn → Concession:Soda, Ticket:Child","Payment:Cash, Concession:Popcorn","Concession:Soda, Ticket:Child",0.1016949152542373,0.4285714285714286,3.160714285714286
+"Payment:Cash, Concession:Soda → Concession:Popcorn, Ticket:Child","Payment:Cash, Concession:Soda","Concession:Popcorn, Ticket:Child",0.1016949152542373,0.5454545454545455,2.9256198347107443
+"Payment:Cash, Ticket:Child → Concession:Popcorn, Concession:Soda","Payment:Cash, Ticket:Child","Concession:Popcorn, Concession:Soda",0.1016949152542373,0.75,1.5803571428571428
+"Concession:Popcorn, Ticket:Child → Payment:Cash, Concession:Soda","Concession:Popcorn, Ticket:Child","Payment:Cash, Concession:Soda",0.1016949152542373,0.5454545454545455,2.9256198347107443
+"Concession:Soda, Ticket:Child → Payment:Cash, Concession:Popcorn","Concession:Soda, Ticket:Child","Payment:Cash, Concession:Popcorn",0.1016949152542373,0.75,3.1607142857142856
+"Ticket:Child → Payment:Cash, Concession:Popcorn, Concession:Soda",Ticket:Child,"Payment:Cash, Concession:Popcorn, Concession:Soda",0.1016949152542373,0.5454545454545455,4.022727272727273
+"Payment:Credit Card, Concession:Popcorn, Ticket:Adult → Concession:Soda","Payment:Credit Card, Concession:Popcorn, Ticket:Adult",Concession:Soda,0.1694915254237288,1.0,1.475
+"Payment:Credit Card, Concession:Popcorn, Concession:Soda → Ticket:Adult","Payment:Credit Card, Concession:Popcorn, Concession:Soda",Ticket:Adult,0.1694915254237288,0.8333333333333333,1.6388888888888888
+"Payment:Credit Card, Ticket:Adult, Concession:Soda → Concession:Popcorn","Payment:Credit Card, Ticket:Adult, Concession:Soda",Concession:Popcorn,0.1694915254237288,0.625,1.0243055555555556
+"Concession:Popcorn, Ticket:Adult, Concession:Soda → Payment:Credit Card","Concession:Popcorn, Ticket:Adult, Concession:Soda",Payment:Credit Card,0.1694915254237288,0.7142857142857142,2.1071428571428568
+"Payment:Credit Card, Concession:Popcorn → Ticket:Adult, Concession:Soda","Payment:Credit Card, Concession:Popcorn","Ticket:Adult, Concession:Soda",0.1694915254237288,0.7692307692307692,2.062937062937063
+"Payment:Credit Card, Ticket:Adult → Concession:Popcorn, Concession:Soda","Payment:Credit Card, Ticket:Adult","Concession:Popcorn, Concession:Soda",0.1694915254237288,0.625,1.3169642857142856
+"Payment:Credit Card, Concession:Soda → Concession:Popcorn, Ticket:Adult","Payment:Credit Card, Concession:Soda","Concession:Popcorn, Ticket:Adult",0.1694915254237288,0.5263157894736842,1.8266253869969038
+"Concession:Popcorn, Ticket:Adult → Payment:Credit Card, Concession:Soda","Concession:Popcorn, Ticket:Adult","Payment:Credit Card, Concession:Soda",0.1694915254237288,0.588235294117647,1.8266253869969038
+"Concession:Popcorn, Concession:Soda → Payment:Credit Card, Ticket:Adult","Concession:Popcorn, Concession:Soda","Payment:Credit Card, Ticket:Adult",0.1694915254237288,0.3571428571428571,1.3169642857142856
+"Ticket:Adult, Concession:Soda → Payment:Credit Card, Concession:Popcorn","Ticket:Adult, Concession:Soda","Payment:Credit Card, Concession:Popcorn",0.1694915254237288,0.45454545454545453,2.062937062937063
+"Payment:Credit Card → Concession:Popcorn, Ticket:Adult, Concession:Soda",Payment:Credit Card,"Concession:Popcorn, Ticket:Adult, Concession:Soda",0.1694915254237288,0.5,2.107142857142857
+"Ticket:Adult → Payment:Credit Card, Concession:Popcorn, Concession:Soda",Ticket:Adult,"Payment:Credit Card, Concession:Popcorn, Concession:Soda",0.1694915254237288,0.3333333333333333,1.6388888888888886
+"Payment:Cash, Concession:Popcorn, Concession:Candy, Concession:Soda → Ticket:Child","Payment:Cash, Concession:Popcorn, Concession:Candy, Concession:Soda",Ticket:Child,0.1016949152542373,1.0,5.363636363636363
+"Payment:Cash, Concession:Candy, Concession:Soda, Ticket:Child → Concession:Popcorn","Payment:Cash, Concession:Candy, Concession:Soda, Ticket:Child",Concession:Popcorn,0.1016949152542373,1.0,1.6388888888888888
+"Payment:Cash, Concession:Popcorn, Concession:Candy, Ticket:Child → Concession:Soda","Payment:Cash, Concession:Popcorn, Concession:Candy, Ticket:Child",Concession:Soda,0.1016949152542373,0.75,1.10625
+"Payment:Cash, Concession:Popcorn, Concession:Soda, Ticket:Child → Concession:Candy","Payment:Cash, Concession:Popcorn, Concession:Soda, Ticket:Child",Concession:Candy,0.1016949152542373,1.0,1.9032258064516128
+"Concession:Popcorn, Concession:Candy, Concession:Soda, Ticket:Child → Payment:Cash","Concession:Popcorn, Concession:Candy, Concession:Soda, Ticket:Child",Payment:Cash,0.1016949152542373,0.75,2.107142857142857
+"Payment:Cash, Concession:Candy, Concession:Soda → Concession:Popcorn, Ticket:Child","Payment:Cash, Concession:Candy, Concession:Soda","Concession:Popcorn, Ticket:Child",0.1016949152542373,0.75,4.0227272727272725
+"Payment:Cash, Concession:Popcorn, Concession:Candy → Concession:Soda, Ticket:Child","Payment:Cash, Concession:Popcorn, Concession:Candy","Concession:Soda, Ticket:Child",0.1016949152542373,0.6000000000000001,4.425000000000001
+"Payment:Cash, Concession:Candy, Ticket:Child → Concession:Popcorn, Concession:Soda","Payment:Cash, Concession:Candy, Ticket:Child","Concession:Popcorn, Concession:Soda",0.1016949152542373,0.75,1.5803571428571428
+"Payment:Cash, Concession:Popcorn, Concession:Soda → Concession:Candy, Ticket:Child","Payment:Cash, Concession:Popcorn, Concession:Soda","Concession:Candy, Ticket:Child",0.1016949152542373,0.75,4.0227272727272725
+"Payment:Cash, Concession:Soda, Ticket:Child → Concession:Popcorn, Concession:Candy","Payment:Cash, Concession:Soda, Ticket:Child","Concession:Popcorn, Concession:Candy",0.1016949152542373,1.0,2.185185185185185
+"Payment:Cash, Concession:Popcorn, Ticket:Child → Concession:Candy, Concession:Soda","Payment:Cash, Concession:Popcorn, Ticket:Child","Concession:Candy, Concession:Soda",0.1016949152542373,0.75,1.77
+"Concession:Candy, Concession:Soda, Ticket:Child → Payment:Cash, Concession:Popcorn","Concession:Candy, Concession:Soda, Ticket:Child","Payment:Cash, Concession:Popcorn",0.1016949152542373,0.75,3.1607142857142856
+"Concession:Popcorn, Concession:Candy, Ticket:Child → Payment:Cash, Concession:Soda","Concession:Popcorn, Concession:Candy, Ticket:Child","Payment:Cash, Concession:Soda",0.1016949152542373,0.5454545454545455,2.9256198347107443
+"Concession:Popcorn, Concession:Soda, Ticket:Child → Payment:Cash, Concession:Candy","Concession:Popcorn, Concession:Soda, Ticket:Child","Payment:Cash, Concession:Candy",0.1016949152542373,0.75,3.6874999999999996
+"Payment:Cash, Concession:Candy → Concession:Popcorn, Concession:Soda, Ticket:Child","Payment:Cash, Concession:Candy","Concession:Popcorn, Concession:Soda, Ticket:Child",0.1016949152542373,0.5,3.6875
+"Payment:Cash, Concession:Soda → Concession:Popcorn, Concession:Candy, Ticket:Child","Payment:Cash, Concession:Soda","Concession:Popcorn, Concession:Candy, Ticket:Child",0.1016949152542373,0.5454545454545455,2.9256198347107443
+"Payment:Cash, Concession:Popcorn → Concession:Candy, Concession:Soda, Ticket:Child","Payment:Cash, Concession:Popcorn","Concession:Candy, Concession:Soda, Ticket:Child",0.1016949152542373,0.4285714285714286,3.160714285714286
+"Payment:Cash, Ticket:Child → Concession:Popcorn, Concession:Candy, Concession:Soda","Payment:Cash, Ticket:Child","Concession:Popcorn, Concession:Candy, Concession:Soda",0.1016949152542373,0.75,2.107142857142857
+"Concession:Candy, Ticket:Child → Payment:Cash, Concession:Popcorn, Concession:Soda","Concession:Candy, Ticket:Child","Payment:Cash, Concession:Popcorn, Concession:Soda",0.1016949152542373,0.5454545454545455,4.022727272727273
+"Concession:Soda, Ticket:Child → Payment:Cash, Concession:Popcorn, Concession:Candy","Concession:Soda, Ticket:Child","Payment:Cash, Concession:Popcorn, Concession:Candy",0.1016949152542373,0.75,4.425
+"Concession:Popcorn, Ticket:Child → Payment:Cash, Concession:Candy, Concession:Soda","Concession:Popcorn, Ticket:Child","Payment:Cash, Concession:Candy, Concession:Soda",0.1016949152542373,0.5454545454545455,4.022727272727273
+"Ticket:Child → Payment:Cash, Concession:Popcorn, Concession:Candy, Concession:Soda",Ticket:Child,"Payment:Cash, Concession:Popcorn, Concession:Candy, Concession:Soda",0.1016949152542373,0.5454545454545455,5.363636363636364
+"Payment:Credit Card, Concession:Popcorn, Concession:Candy, Concession:Soda → Ticket:Adult","Payment:Credit Card, Concession:Popcorn, Concession:Candy, Concession:Soda",Ticket:Adult,0.11864406779661017,0.7777777777777778,1.5296296296296297
+"Payment:Credit Card, Concession:Candy, Concession:Soda, Ticket:Adult → Concession:Popcorn","Payment:Credit Card, Concession:Candy, Concession:Soda, Ticket:Adult",Concession:Popcorn,0.11864406779661017,0.7777777777777778,1.2746913580246912
+"Payment:Credit Card, Concession:Popcorn, Concession:Candy, Ticket:Adult → Concession:Soda","Payment:Credit Card, Concession:Popcorn, Concession:Candy, Ticket:Adult",Concession:Soda,0.11864406779661017,1.0,1.475
+"Payment:Credit Card, Concession:Popcorn, Concession:Soda, Ticket:Adult → Concession:Candy","Payment:Credit Card, Concession:Popcorn, Concession:Soda, Ticket:Adult",Concession:Candy,0.11864406779661017,0.7000000000000001,1.332258064516129
+"Concession:Popcorn, Concession:Candy, Concession:Soda, Ticket:Adult → Payment:Credit Card","Concession:Popcorn, Concession:Candy, Concession:Soda, Ticket:Adult",Payment:Credit Card,0.11864406779661017,0.7000000000000001,2.0650000000000004
+"Payment:Credit Card, Concession:Candy, Concession:Soda → Concession:Popcorn, Ticket:Adult","Payment:Credit Card, Concession:Candy, Concession:Soda","Concession:Popcorn, Ticket:Adult",0.11864406779661017,0.6363636363636364,2.2085561497326203
+"Payment:Credit Card, Concession:Popcorn, Concession:Candy → Concession:Soda, Ticket:Adult","Payment:Credit Card, Concession:Popcorn, Concession:Candy","Concession:Soda, Ticket:Adult",0.11864406779661017,0.7000000000000001,1.8772727272727274
+"Payment:Credit Card, Concession:Candy, Ticket:Adult → Concession:Popcorn, Concession:Soda","Payment:Credit Card, Concession:Candy, Ticket:Adult","Concession:Popcorn, Concession:Soda",0.11864406779661017,0.7777777777777778,1.6388888888888888
+"Payment:Credit Card, Concession:Popcorn, Concession:Soda → Concession:Candy, Ticket:Adult","Payment:Credit Card, Concession:Popcorn, Concession:Soda","Concession:Candy, Ticket:Adult",0.11864406779661017,0.5833333333333333,2.458333333333333
+"Payment:Credit Card, Concession:Soda, Ticket:Adult → Concession:Popcorn, Concession:Candy","Payment:Credit Card, Concession:Soda, Ticket:Adult","Concession:Popcorn, Concession:Candy",0.11864406779661017,0.4375,0.9560185185185185
+"Payment:Credit Card, Concession:Popcorn, Ticket:Adult → Concession:Candy, Concession:Soda","Payment:Credit Card, Concession:Popcorn, Ticket:Adult","Concession:Candy, Concession:Soda",0.11864406779661017,0.7000000000000001,1.6520000000000001
+"Concession:Popcorn, Concession:Candy, Concession:Soda → Payment:Credit Card, Ticket:Adult","Concession:Popcorn, Concession:Candy, Concession:Soda","Payment:Credit Card, Ticket:Adult",0.11864406779661017,0.33333333333333337,1.2291666666666667
+"Concession:Candy, Concession:Soda, Ticket:Adult → Payment:Credit Card, Concession:Popcorn","Concession:Candy, Concession:Soda, Ticket:Adult","Payment:Credit Card, Concession:Popcorn",0.11864406779661017,0.5833333333333333,2.6474358974358974
+"Concession:Popcorn, Concession:Candy, Ticket:Adult → Payment:Credit Card, Concession:Soda","Concession:Popcorn, Concession:Candy, Ticket:Adult","Payment:Credit Card, Concession:Soda",0.11864406779661017,0.5833333333333333,1.8114035087719298
+"Concession:Popcorn, Concession:Soda, Ticket:Adult → Payment:Credit Card, Concession:Candy","Concession:Popcorn, Concession:Soda, Ticket:Adult","Payment:Credit Card, Concession:Candy",0.11864406779661017,0.5,2.458333333333333
+"Payment:Credit Card, Concession:Candy → Concession:Popcorn, Concession:Soda, Ticket:Adult","Payment:Credit Card, Concession:Candy","Concession:Popcorn, Concession:Soda, Ticket:Adult",0.11864406779661017,0.5833333333333333,2.458333333333333
+"Payment:Credit Card, Concession:Soda → Concession:Popcorn, Concession:Candy, Ticket:Adult","Payment:Credit Card, Concession:Soda","Concession:Popcorn, Concession:Candy, Ticket:Adult",0.11864406779661017,0.368421052631579,1.8114035087719298
+"Payment:Credit Card, Concession:Popcorn → Concession:Candy, Concession:Soda, Ticket:Adult","Payment:Credit Card, Concession:Popcorn","Concession:Candy, Concession:Soda, Ticket:Adult",0.11864406779661017,0.5384615384615384,2.6474358974358974
+"Payment:Credit Card, Ticket:Adult → Concession:Popcorn, Concession:Candy, Concession:Soda","Payment:Credit Card, Ticket:Adult","Concession:Popcorn, Concession:Candy, Concession:Soda",0.11864406779661017,0.4375,1.2291666666666667
+"Concession:Candy, Ticket:Adult → Payment:Credit Card, Concession:Popcorn, Concession:Soda","Concession:Candy, Ticket:Adult","Payment:Credit Card, Concession:Popcorn, Concession:Soda",0.11864406779661017,0.5,2.458333333333333
+"Concession:Soda, Ticket:Adult → Payment:Credit Card, Concession:Popcorn, Concession:Candy","Concession:Soda, Ticket:Adult","Payment:Credit Card, Concession:Popcorn, Concession:Candy",0.11864406779661017,0.3181818181818182,1.8772727272727274
+"Concession:Popcorn, Ticket:Adult → Payment:Credit Card, Concession:Candy, Concession:Soda","Concession:Popcorn, Ticket:Adult","Payment:Credit Card, Concession:Candy, Concession:Soda",0.11864406779661017,0.4117647058823529,2.2085561497326203
+"Payment:Credit Card → Concession:Popcorn, Concession:Candy, Concession:Soda, Ticket:Adult",Payment:Credit Card,"Concession:Popcorn, Concession:Candy, Concession:Soda, Ticket:Adult",0.11864406779661017,0.35000000000000003,2.0650000000000004
